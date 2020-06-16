@@ -1,9 +1,22 @@
-/* footer */
-.attribution {
-    font-size: 11px;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --cyan: #2ab2af;
+    --bright-yellow: #c0df34;
+    --light-gray: #e9f1f6;
+    --grayish-blue: #98a6bd;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
 }
